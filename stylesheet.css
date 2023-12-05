@@ -1,0 +1,444 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+   scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(190, 149, 73);
+}
+   header{
+    
+    width: 100%;
+    padding: 20px 0;
+    background-color: rgb(109, 77, 19);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+   }
+   .logo-imagem{
+    width: 50px;
+    height: 50px;
+    background-image: url(ac7f64d4277be0615bf9b357cd619242_resized.jpg);
+    border-radius: 25px;
+   }
+   .container-logo{
+    display: flex;
+    align-items: center;
+   }
+   .logo-texto{
+    margin-left: 20px;
+    color: white;
+   }
+   .menu li{
+    display: inline-block;
+    margin: 0 10px;
+   }
+   .menu li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 10px;
+   }
+   .menu button{
+    display: inline-block;
+    margin: 0 10px;
+    
+   }
+   .menu button a{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(109, 77, 19);
+    text-transform: uppercase;
+    padding: 10px 10px;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+   }
+   main{
+    background-color: white;
+    width: 1000px;
+    height: 500px;
+    padding: 15px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 10px 8px 8px #c98c41fb;
+    background-image: url(antiracismo_resized.jpg) ;
+    background-repeat: no-repeat;
+    margin-bottom: 60px;
+}
+p{
+    text-align: justify;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+}
+h1{
+    color: #f7972a;
+    text-align: center;
+    text-shadow: 10px 8px 12px #a8783d9d;
+}
+.combater{
+    display: flex;
+    padding: 30px;
+    justify-content: space-around ;
+    margin: auto;
+}
+.child{
+    width: 22%;
+    height: 200px;
+    background-color: white;
+    border:2px solid brown ;
+
+}
+.R{
+    color: black;
+    font-size: 20px;
+}
+.tag{
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    margin: auto;
+}
+.H{
+    color: rgb(206, 209, 40);
+}
+
+.G{
+    padding: 20px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    justify-content: space-around ;
+    margin: auto;
+    width: 300px;
+    background-color: #3f3f3f;
+    text-align: justify;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.389);
+    position: relative;
+}
+
+/** Icon **/
+.icon {
+    margin-bottom: 20px;
+}
+
+.icon img {
+    width: 250px;
+}
+
+/** Content **/
+
+.estrutural::before {
+  
+    content: '';
+   
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(transparent, #3f3f3f);
+}
+
+.estrutural h3 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 24px;
+    position: relative;
+}
+
+.estrutural h3::before {
+    content: '';
+   
+    height: 2px;
+    width: 40px;
+    background-color: #06d62e;
+    bottom: 4px;
+    border-radius: 100px;
+}
+
+.estrutural p {
+    color: #b7b7b7;
+}
+.B{
+    color: rgb(190, 149, 73);
+    height: 30px;
+    width: 100%;
+    
+}
+@media only screen and (max-width: 1280px) and (orientation: portrait){
+    
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+   scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(190, 149, 73);
+    height: 100%;
+    width: 100%;
+   
+}
+
+   header{
+    
+    width: 100%;
+    padding:  0;
+    background-color: rgb(109, 77, 19);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 0px;
+   }
+   header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu {
+    margin-top: 20px; 
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 20px; 
+}
+
+.menu button {
+    margin-left: auto; 
+}
+
+.container-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.logo-texto {
+    text-align: center;
+}
+#Combate-lo h1 {
+    font-size: 50px;
+}
+#Combate-lo h3{
+    font-size: 20px;
+}
+   .logo-imagem{
+    width: 50px;
+    height: 50px;
+    background-image: url(ac7f64d4277be0615bf9b357cd619242_resized.jpg);
+    border-radius: 25px;
+  
+   }
+   .container-logo{
+    display: flex;
+    align-items: center;
+   }
+   .logo-texto{
+    margin-left: 20px;
+    color: white;
+   }
+   .menu li{
+    display: inline-block;
+    margin: 0 10px;
+   }
+   .menu li a{
+    font-size: 10px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 10px;
+   }
+   .menu button{
+    display: inline-block;
+    margin: 0 px;
+    
+   }
+   header .menu button a{
+    font-size: 100%; /* ou ajuste o tamanho conforme necessário */
+    max-width: 100%;
+    
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-decoration: none;
+    color: rgb(109, 77, 19);
+    text-transform: uppercase;
+    padding: px;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+   }
+   main{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    padding: 15%;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 10px 8px 8px #c98c41fb;
+    background-image: url(antiracismo_resized.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center; 
+    margin-bottom: 0%;
+}
+p{
+    text-align: justify;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+}
+
+h1{
+    color: #f7972a;
+    text-align: center;
+    text-shadow: 10px 8px 12px #a8783d9d;
+}
+.combater{
+    display: flex;
+    padding: 20%;
+    justify-content: center ;
+    margin: auto;
+
+ 
+}
+.child{
+    flex: 1;
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    border:2px solid brown ;
+    margin-left: 10px;
+    
+
+
+}
+
+.child:last-child {
+    margin-right: 0; 
+}
+.tag {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+
+.h3 {
+    text-align: center;
+    color: #f7972a;
+    font-size: 16px;
+}
+.R{
+    color: black;
+    font-size: 100%;
+}
+.tag{
+    display: flex;
+    padding: 10%;
+    justify-content: space-around;
+    margin: auto;
+
+}
+.H{
+    color: rgb(206, 209, 40);
+    
+    text-align: left;
+}
+
+.G{
+    padding: 20px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    justify-content: space-around ;
+    margin: auto;
+    width: 300px;
+    background-color: #3f3f3f;
+    text-align: justify;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.389);
+    position: relative;
+}
+
+
+.icon {
+    margin-bottom: 20px;
+}
+
+.icon img {
+    width: 250px;
+}
+
+
+
+.estrutural::before {
+  
+    content: '';
+   
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(transparent, #3f3f3f);
+}
+
+.estrutural h3 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 24px;
+    position: relative;
+}
+
+.estrutural h3::before {
+    content: '';
+   
+    height: 2px;
+    width: 40px;
+    background-color: #06d62e;
+    bottom: 4px;
+    border-radius: 100px;
+    
+    
+}
+
+.estrutural p {
+    color: #b7b7b7;
+    text-align: justify;    
+    
+}
+.B{
+    color: rgb(190, 149, 73);
+    height: 30px;
+    width: 100%;
+    
+}
+#ar{
+    color: #f7972a;
+    text-align: center;
+    text-shadow: 10px 8px 12px #a8783d9d;
+    margin: 0;
+}
+
+
+
+}
